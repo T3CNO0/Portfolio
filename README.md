@@ -45,13 +45,20 @@
 </ul>
 </div>
 <h2 class="nom">Alguns projetos meus:</h2>
-<div class="projetos">
 
+<div class="projeto1">
 <h3>Calculadora</h3>
 <a href="https://github.com/T3CNO0/Calculadora" >
 <img src="result.png" width="300px" height="300px">
-Clique aqui para ir para o repositório desse projeto</a>
+</a>
 </div>
+
+<div class="projeto2">
+    <h3>Formulario de Login</h3>
+    <a href="https://github.com/T3CNO0/Formulario-de-login.git">
+        <img src="formulario.png" width="300px" height="300px"/></a>
+</div>
+
 </body>
 <footer class="footer"> © 2024 Copyright by T3CNO0</footer>
 </html>
@@ -95,10 +102,11 @@ Clique aqui para ir para o repositório desse projeto</a>
     }
 
     .container1{
+
         color: aliceblue;
         display: flex;
         align-items: center;
-        background-color: rgb(50, 148, 118);
+        background-image: radial-gradient(purple, black);
         margin-top: auto;
         padding: auto;
         border-style: solid;
@@ -135,9 +143,20 @@ Clique aqui para ir para o repositório desse projeto</a>
         background-image: linear-gradient(black, purple);
         text-align: center;
     }
-    .projetos{
+    
+    .projeto1{
+    
+        background-image: repeating-linear-gradient(rgb(16, 129, 157), purple);
+        width: auto;
+        height: auto;
+        border-radius: 15px;
+        border-color: aqua;
+        border-style: solid;
+        color: antiquewhite;
+    }
+    .projeto2{
         
-        background-color: black;
+        background-image: repeating-linear-gradient(purple, black);
         width: auto;
         height: auto;
         border-radius: 15px;
