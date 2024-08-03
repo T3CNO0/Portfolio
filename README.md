@@ -45,36 +45,48 @@
 </ul>
 </div>
 <h2 class="nom">Alguns projetos meus:</h2>
-
+<div class="projetos">
 <div class="projeto1">
 <h3>Calculadora</h3>
 <a href="https://github.com/T3CNO0/Calculadora" >
-<img src="result.png" width="300px" height="300px">
+<img src="result.png" width="400px" height="300px">
 </a>
 </div>
 
 <div class="projeto2">
     <h3>Formulario de Login</h3>
     <a href="https://github.com/T3CNO0/Formulario-de-login.git">
-        <img src="formulario.png" width="300px" height="300px"/></a>
+        <img src="formulario.png" width="400px" height="300px"/></a>
 </div>
-
+</div>
 </body>
 <footer class="footer"> © 2024 Copyright by T3CNO0</footer>
 </html>
 
 <style>
     
-   
-.body{
-    margin: 50px , 20px;
+    @media (max-width: 768px) {
+    .body {
+    width: 80%;
+    margin: 0 auto;
     background-color: grey;
-}
+   }}
+
+    @media (max-width: 2000px){
+    .body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: grey;
+   }}
 
 .apresentacao{
      text-align: justify;
-     color: rgb(142, 190, 180);
-     background-color: rgb(27, 2, 51);
+     color: rgb(12, 216, 175);
+     background-image:linear-gradient(rgb(6, 63, 100), black);
+     border-style:double;
+     border-color: aqua;
+     border-radius: 5px;
+
 
     }
     .listq{
@@ -83,34 +95,35 @@
         color: rgb(77, 150, 125);
         font-size: large;
         display: table;
-        background-color: black;
-        border: rebeccapurple;
+        background-image:linear-gradient(black, rgb(65, 22, 2)) ;
+        border-color: rgb(119, 190, 223);
         border-radius: 10px;
-        border-style: solid;
+        border-style: double;
     }
 
 
     .titulo{
         margin-top: auto;
         padding: auto;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
         font-size: xx-large;
         font-style:italic;
         text-align: center;
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
+        border-color: rgb(43, 21, 94);
+        border-style: double;
     }
 
     .container1{
-
-        color: aliceblue;
+        color: rgb(129, 155, 189);
         display: flex;
         align-items: center;
-        background-image: radial-gradient(purple, black);
+        background-image: repeating-linear-gradient(black,purple,rgb(141, 37, 80),rgb(6, 58, 88));
         margin-top: auto;
         padding: auto;
-        border-style: solid;
-        border-color: crimson;
+        border-style:double;
+        border-color: rgb(211, 0, 0);
         border-radius: 15px;
     }
 
@@ -118,17 +131,17 @@
         display: flex;
     }
 
-    .sobre{
+    .sobre{ 
        height: max-content;
        width: 500px; 
        align-content: right;
-        background-color: rgb(0, 0, 0);
-        border-style: solid;
-        border-radius: 10px;
-        border-color: rgb(179, 6, 78);
+       background-image:linear-gradient(black, rgb(87, 6, 6));
+        border-style: double;
+       border-radius: 10px;
+        border-color:  rgb(119, 190, 223);
         color: rgb(41, 128, 179);
         font-size: large;
-        font-style: oblique;
+        font-style: solid;
     }
 
     .footer{
@@ -142,27 +155,37 @@
         color: aliceblue;
         background-image: linear-gradient(black, purple);
         text-align: center;
+        border-radius: 50px;
+        border-color: rgb(9, 87, 87);
+        border-style: solid;
     }
-    
+    .projetos{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+      
+    }
     .projeto1{
-    
+        
         background-image: repeating-linear-gradient(rgb(16, 129, 157), purple);
-        width: auto;
+        width: max-content;
         height: auto;
         border-radius: 15px;
         border-color: aqua;
         border-style: solid;
         color: antiquewhite;
+        text-align: center;
     }
     .projeto2{
         
         background-image: repeating-linear-gradient(purple, black);
-        width: auto;
+        width: max-content;
         height: auto;
         border-radius: 15px;
         border-color: aqua;
         border-style: solid;
         color: antiquewhite;
+        text-align: center;
     }
-
+    
 </style>
