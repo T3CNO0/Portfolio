@@ -6,6 +6,8 @@
     <meta name="author" content="Carlos Anísio, User: T3CNO0">
     <title>Portfólio</title>
 </head>
+
+
 <body class="body">
     <div class="titulo">Portfólio</div>
 
@@ -26,9 +28,15 @@
 </div>
 
 
-<h2 class="apresentacao">Olá, esse é o Meu Portfólio, me chamo Carlos, Sou Desenvolvedor Web, aqui estão algumas de minhas habilidades e formações:</h2>
+<h2 class="apresentacao">
+    Olá, caro recrutador, prazer em conhece-lo, me chamo Carlos<br>
+    Fiz este portfólio utilizando apenas html e css. <br>
+    Sou um Desenvolvedor Web em transição de carreira, mas isso você ja deve ter percebido <br>
+    Vamos ao que realmente você quer saber: minhas formações e um pouco sobre mim: </h2>
+
+
 <div class="container2">
-<ul class="listq">
+<ul class="lista">
     <h4>Habilidades</h4>
 <li>Lógica de Programação</li>
 <li>HTML</li>
@@ -38,25 +46,31 @@
 <li>Banco de Dados</li>
 <li>Linguagem C</li>
 <li>Figma</li>
+<li>Trabalho em equipe</li>
+<li>Resiliência</li>
 </ul>
+
 <ul class="sobre">
     <h1>Um pouco sobre mim:</h1>
-        <h4>Bom, atualmente trabalho no setor administrativo de uma empresa, porém me formei como técnico em informática, cursei integrado ao ensino médio, inclusive foi onde adquiri boa parte dos meus fundamentos em programação, foi durante o curso que percebi que a área que mais me deixava atraído era a de programação, e desde então venho buscando fazer essa transição de carreira, e não sei se deu para nota, mas eu gosto bastante de brincar com as cores!</h4>
+    <h4>Bom, atualmente trabalho no setor administrativo de uma empresa, porém me formei como técnico em informática, cursei integrado ao ensino médio, inclusive foi onde adquiri boa parte dos meus fundamentos em programação, foi durante o curso(Realizado no colégio CETEPES) que percebi que a área que mais me deixava atraído era a de programação, e desde então venho buscando fazer essa transição de carreira, simplesmente amo passar horas na frente do vs code, ah e não sei se deu para notar, mas eu gosto bastante de brincar com as cores! (OBS: quis fazer um portfólio mais descontraído, mas em questão de trabalho sou perfeitamente empenhado até concluir o objetivo.)</h4>
 </ul>
 </div>
-<h2 class="nom">Alguns projetos meus:</h2>
-<div class="projetos">
+
+
+    <h2 class="nom">Alguns projetos meus:</h2>
+    <div class="projetos">
+
 <div class="projeto1">
 <h3>Calculadora</h3>
 <a href="https://github.com/T3CNO0/Calculadora" >
-<img src="result.png" width="400px" height="300px">
+<img src="result.png" width="600px" height="400px">
 </a>
 </div>
 
 <div class="projeto2">
     <h3>Formulario de Login</h3>
     <a href="https://github.com/T3CNO0/Formulario-de-login.git">
-        <img src="formulario.png" width="400px" height="300px"/></a>
+        <img src="formulario.png" width="600px" height="400px"/></a>
 </div>
 </div>
 </body>
@@ -64,34 +78,57 @@
 </html>
 
 <style>
-    
-    @media (max-width: 768px) {
-    .body {
-    width: 80%;
+     .body {
+    width: 100%;
     margin: 0 auto;
-    background-color: grey;
-   }}
+    background-image: repeating-linear-gradient(black, purple, rgb(98, 9, 9), rgb(6, 65, 95));
+     }
+     
+     .titulo{
+        margin: auto;
+        padding: auto;
+        color: rgb(255, 255, 255);
+        font-size: xx-large;
+        font-style:italic;
+        text-align: center;
+        background-image: linear-gradient(black, purple);
+        
+    }
 
-    @media (max-width: 2000px){
-    .body {
-    width: 80%;
-    margin: 0 auto;
-    background-color: grey;
-   }}
+    .container1{
+        width: auto;
+        margin: 0 auto;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        background-image: repeating-linear-gradient(purple,rgb(141, 37, 80),rgb(6, 58, 88));    
+        border-style:double;
+        border-color: rgb(211, 0, 0);
+        
+    }
 
 .apresentacao{
-     text-align: justify;
-     color: rgb(12, 216, 175);
-     background-image:linear-gradient(rgb(6, 63, 100), black);
+    margin: 5px;
+     text-align: center;
+     color: rgb(202, 235, 228);
+     background-color: rgba(63, 9, 157, 0.14) ;
      border-style:double;
      border-color: aqua;
      border-radius: 5px;
 
 
     }
-    .listq{
+
+    .container2{
+        display: flex;
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .lista{
         height: auto;
-        width: 300px;
+        width: 500px;
         color: rgb(77, 150, 125);
         font-size: large;
         display: table;
@@ -99,36 +136,6 @@
         border-color: rgb(119, 190, 223);
         border-radius: 10px;
         border-style: double;
-    }
-
-
-    .titulo{
-        margin-top: auto;
-        padding: auto;
-        color: rgb(255, 255, 255);
-        font-size: xx-large;
-        font-style:italic;
-        text-align: center;
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
-        border-color: rgb(43, 21, 94);
-        border-style: double;
-    }
-
-    .container1{
-        color: rgb(129, 155, 189);
-        display: flex;
-        align-items: center;
-        background-image: repeating-linear-gradient(black,purple,rgb(141, 37, 80),rgb(6, 58, 88));
-        margin-top: auto;
-        padding: auto;
-        border-style:double;
-        border-color: rgb(211, 0, 0);
-        border-radius: 15px;
-    }
-
-.container2{
-        display: flex;
     }
 
     .sobre{ 
@@ -143,8 +150,15 @@
         font-size: large;
         font-style: solid;
     }
+   
+
+   
+
+
+    
 
     .footer{
+        padding: 0 0;
         text-align: center;
         background-color: black;
         color: aliceblue;
@@ -152,10 +166,11 @@
 
     }
     .nom{
+        
         color: aliceblue;
-        background-image: linear-gradient(black, purple);
+        background-image: linear-gradient(rgb(0, 0, 0), purple);
         text-align: center;
-        border-radius: 50px;
+        border-radius: 10px;
         border-color: rgb(9, 87, 87);
         border-style: solid;
     }
